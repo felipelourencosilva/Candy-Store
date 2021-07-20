@@ -71,7 +71,9 @@ export function ProductCard(props) {
       <Card>
         <img src={String(props.img)} alt="produto-foto" />
         <p>{props.name}</p>
-        <Amount><span>$</span>{props.price}</Amount>
+        <Amount>
+          <span>$</span>{props.price}
+        </Amount>
         <ItemAmount onSubmit={AddItemToCart}>
           <div>
             <button type="button" onClick={DecreaseItemAmount}>-</button>

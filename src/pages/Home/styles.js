@@ -6,7 +6,14 @@ export const Container = styled.div`
   flex-flow: wrap;
 
   width: 100%;
-  height: calc(100vh - 60px);
+  height: calc(100% - 60px);
   padding: 0 5% 17%;
   gap: 80px;
+`
+
+export const CreditsImages = styled.p`
+  position: absolute;
+  top: 65px;
+  color: #555;
+  font-size: 10px;
 `

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProductCard } from '../../components/ProductCard';
-import { Container } from './styles'
+import { Container, CreditsImages } from './styles'
 import { ItensList } from '../../ItensList'
 
 export function Home() {
@@ -15,6 +15,9 @@ export function Home() {
           img={ItemList.img}
         />
       ))}
+      <CreditsImages>
+      "Images Designed by pch.vector / Freepik"
+      </CreditsImages>
     </Container>
   )
 }
