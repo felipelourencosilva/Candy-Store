@@ -2,12 +2,11 @@ import styled from 'styled-components';
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 
 export const Container = styled.div`
-  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 12%;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   border-bottom: 1px solid #E3E3E3;
   margin-bottom: 30px;
